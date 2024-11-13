@@ -2,32 +2,22 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>NSPrivacyAccessedAPITypes</key>
-    <array>
-        <dict>
-            <key>APIAccessType</key>
-            <string>notifications</string>
-            <key>Purpose</key>
-            <string>앱 알림을 위한 권한 요청</string>
+	<key>NSPrivacyTrackingDomains</key>
+	<array/>
+	<key>NSPrivacyAccessedAPITypes</key>
+	<array>
+		<dict>
+            <key>NSPrivacyAccessedAPIType</key>
+            <string>NSPrivacyAccessedAPICategoryUserDefaults</string>
+            <key>NSPrivacyAccessedAPITypeReasons</key>
+            <array>
+                <string>CA92.1</string>
+            </array>
         </dict>
-    </array>
-    
-    <key>NSPrivacyCollectedDataTypes</key>
-    <array>
-        <dict>
-            <key>DataType</key>
-            <string>Device ID</string>
-            <key>DataUsage</key>
-            <string>앱 푸시 알림 발송을 위해 사용</string>
-        </dict>
-    </array>
-
-    <key>NSPrivacyTrackingDomains</key>
-    <array>
-        <string>example.com</string>
-    </array>
-    
-    <key>NSPrivacyTracking</key>
-    <false/>
+	</array>
+	<key>NSPrivacyCollectedDataTypes</key>
+	<array/>
+	<key>NSPrivacyTracking</key>
+	<false/>
 </dict>
 </plist>
